@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="356" viewBox="0 0 900 356" role="img" aria-labelledby="bs-title bs-desc">
+  <title id="bs-title">botstop.io: are you a bot?</title>
+  <desc id="bs-desc">An illustration of the result card on botstop.io. It cycles through the three verdicts a visitor can get, each with the signals behind it: automated with a suspicion score of 82, human with 0 and suspicious with 25.</desc>
+  <defs>
+    <radialGradient id="glow" cx="110" cy="-30" r="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3dd68c" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#3dd68c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heat">
+      <stop offset="0" stop-color="#3dd68c"/>
+      <stop offset=".5" stop-color="#e5a91b"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="900" height="356" rx="12"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .t { fill: #e4e4e7 }
+    .m { fill: #9395a1 }
+    .m2 { fill: #686a76 }
+    .g { fill: #3dd68c }
+    .a { fill: #e5a91b }
+    .r { fill: #ef4444 }
+    .k { font-size: 10px; font-weight: 600; letter-spacing: .8px; fill: #686a76 }
+    .pl { font-size: 10px; font-weight: 700; letter-spacing: .4px }
+    .n { font-size: 11.5px; fill: #e4e4e7 }
+    .w { font-size: 11px; fill: #686a76 }
+    .wa { font-size: 11px; font-weight: 700; fill: #ef4444 }
+    .vl { font-size: 23px; font-weight: 700; letter-spacing: .7px }
+    .ok { fill: #3dd68c; fill-opacity: .1; stroke: #3dd68c; stroke-opacity: .38 }
+    .warn { fill: #e5a91b; fill-opacity: .14; stroke: #e5a91b; stroke-opacity: .45 }
+    .bad { fill: #ef4444; fill-opacity: .14; stroke: #ef4444; stroke-opacity: .45 }
+    .sep { stroke: #252730 }
+    .cursor { animation: blink 1s step-end infinite }
+    .bar { transform-box: fill-box; transform-origin: 0 50%; animation: scan 4s cubic-bezier(.3, .6, .4, 1) infinite }
+    .v { opacity: 0; animation: show 12s linear infinite }
+    .v1 { opacity: 1 }
+    .v2 { animation-delay: -8s }
+    .v3 { animation-delay: -4s }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes scan { 0% { transform: scaleX(0) } 85%, 100% { transform: scaleX(1) } }
+    @keyframes show { 0%, 30% { opacity: 1 } 33.33%, 96.67% { opacity: 0 } 100% { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) { .cursor, .bar, .v { animation: none } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="356" fill="#09090b"/>
+    <rect width="900" height="356" fill="url(#glow)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="355" rx="11.5" fill="none" stroke="#252730"/>
+
+  <!-- header, as on the site -->
+  <text x="36" y="42" font-size="16" font-weight="700"><tspan class="g" font-weight="600">&gt;</tspan><tspan class="t" dx="7">botstop.io</tspan></text>
+  <text x="864" y="42" text-anchor="end" font-size="11" class="m2">detection by the ipapi.is behavior engine</text>
+  <line x1="36" y1="60.5" x2="864" y2="60.5" class="sep"/>
+
+  <!-- hero -->
+  <text x="36" y="98" font-size="11" font-weight="600" letter-spacing="1" class="g">BROWSER &amp; BOT DETECTION BENCHMARK</text>
+  <text x="36" y="138" font-size="30" font-weight="700" letter-spacing="-.6" class="t">Are you a bot?</text>
+  <text x="36" y="166" font-size="13" class="m">A live benchmark for browsers and bot stacks:</text>
+  <text x="36" y="186" font-size="13" class="m">every signal, the value it saw, what it means.</text>
+
+  <text x="36" y="218" font-size="13" font-weight="700" class="g">$</text>
+  <text x="52" y="218" font-size="13" textLength="368" class="t">running headless, worker &amp; side-channel probes&#8230;</text>
+  <rect x="427" y="206" width="7" height="14" class="g cursor"/>
+  <rect x="36" y="230" width="434" height="3" rx="1.5" fill="#18191f"/>
+  <rect x="36" y="230" width="434" height="3" rx="1.5" class="g bar"/>
+
+  <!-- panels the three results are drawn into -->
+  <rect x="492.5" y="82.5" width="371" height="150" rx="4" fill="#121317" stroke="#252730"/>
+  <rect x="36.5" y="250.5" width="827" height="78" rx="4" fill="#121317" stroke="#252730"/>
+  <g class="sep">
+    <line x1="504" y1="115.5" x2="852" y2="115.5"/>
+    <line x1="504" y1="143.5" x2="852" y2="143.5"/>
+    <line x1="504" y1="171.5" x2="852" y2="171.5"/>
+    <line x1="504" y1="199.5" x2="852" y2="199.5"/>
+  </g>
+  <g class="k">
+    <text x="58" y="274">VERDICT</text>
+    <text x="262" y="274">SUSPICION SCORE</text>
+    <text x="540" y="274">SIGNAL SUMMARY</text>
+  </g>
+  <circle cx="718" cy="270.5" r="3.5" class="g"/>
+  <text x="728" y="274" font-size="10.5" class="m2">full scan complete</text>
+  <rect x="372" y="296" width="128" height="5" rx="2.5" fill="#1e2028"/>
+
+  <!-- automated: 45 + 25 + 12 = 82 -->
+  <g class="v v1">
+    <rect x="504.5" y="92.5" width="80" height="17" rx="3" class="bad"/>
+    <text x="544.5" y="105" text-anchor="middle" class="pl r">TRIGGERED</text>
+    <text x="596" y="105" class="n">navigator.webdriver</text>
+    <text x="852" y="105" text-anchor="end" class="wa">+45 pts</text>
+    <rect x="504.5" y="120.5" width="80" height="17" rx="3" class="warn"/>
+    <text x="544.5" y="133" text-anchor="middle" class="pl a">TRIGGERED</text>
+    <text x="596" y="133" class="n">outerHeight vs innerHeight</text>
+    <text x="852" y="133" text-anchor="end" class="wa">+25 pts</text>
+    <rect x="504.5" y="148.5" width="80" height="17" rx="3" class="warn"/>
+    <text x="544.5" y="161" text-anchor="middle" class="pl a">TRIGGERED</text>
+    <text x="596" y="161" class="n">navigator.plugins</text>
+    <text x="852" y="161" text-anchor="end" class="wa">+12 pts</text>
+    <rect x="504.5" y="176.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="189" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="189" class="n">Worker realm cross-check</text>
+    <text x="852" y="189" text-anchor="end" class="w">max +30</text>
+    <rect x="504.5" y="204.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="217" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="217" class="n">GPU shader time</text>
+    <text x="852" y="217" text-anchor="end" class="w">max +25</text>
+
+    <rect x="36" y="250" width="3.5" height="79" rx="1.75" class="r"/>
+    <text x="58" y="306" class="vl r">AUTOMATED</text>
+    <text x="262" y="305"><tspan font-size="21" font-weight="700" class="t">82</tspan><tspan font-size="12" dx="7" class="m2">/ 100</tspan></text>
+    <rect x="372" y="296" width="105" height="5" rx="2.5" fill="url(#heat)"/>
+    <text x="540" y="304" font-size="12" class="t">33 / 38 clean &#183; 3 triggered &#183; 5 categories</text>
+  </g>
+
+  <!-- human: nothing fired -->
+  <g class="v v2">
+    <rect x="504.5" y="92.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="105" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="105" class="n">navigator.webdriver</text>
+    <text x="852" y="105" text-anchor="end" class="w">max +45</text>
+    <rect x="504.5" y="120.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="133" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="133" class="n">outerHeight vs innerHeight</text>
+    <text x="852" y="133" text-anchor="end" class="w">max +25</text>
+    <rect x="504.5" y="148.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="161" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="161" class="n">navigator.plugins</text>
+    <text x="852" y="161" text-anchor="end" class="w">max +12</text>
+    <rect x="504.5" y="176.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="189" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="189" class="n">Worker realm cross-check</text>
+    <text x="852" y="189" text-anchor="end" class="w">max +30</text>
+    <rect x="504.5" y="204.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="217" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="217" class="n">GPU shader time</text>
+    <text x="852" y="217" text-anchor="end" class="w">max +25</text>
+
+    <rect x="36" y="250" width="3.5" height="79" rx="1.75" class="g"/>
+    <text x="58" y="306" class="vl g">HUMAN</text>
+    <text x="262" y="305"><tspan font-size="21" font-weight="700" class="t">0</tspan><tspan font-size="12" dx="7" class="m2">/ 100</tspan></text>
+    <text x="540" y="304" font-size="12" class="t">36 / 38 clean &#183; 0 triggered &#183; 5 categories</text>
+  </g>
+
+  <!-- suspicious: one medium tell, 25 -->
+  <g class="v v3">
+    <rect x="504.5" y="92.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="105" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="105" class="n">navigator.webdriver</text>
+    <text x="852" y="105" text-anchor="end" class="w">max +45</text>
+    <rect x="504.5" y="120.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="133" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="133" class="n">outerHeight vs innerHeight</text>
+    <text x="852" y="133" text-anchor="end" class="w">max +25</text>
+    <rect x="504.5" y="148.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="161" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="161" class="n">navigator.plugins</text>
+    <text x="852" y="161" text-anchor="end" class="w">max +12</text>
+    <rect x="504.5" y="176.5" width="80" height="17" rx="3" class="ok"/>
+    <text x="544.5" y="189" text-anchor="middle" class="pl g">CLEAN</text>
+    <text x="596" y="189" class="n">Worker realm cross-check</text>
+    <text x="852" y="189" text-anchor="end" class="w">max +30</text>
+    <rect x="504.5" y="204.5" width="80" height="17" rx="3" class="warn"/>
+    <text x="544.5" y="217" text-anchor="middle" class="pl a">TRIGGERED</text>
+    <text x="596" y="217" class="n">GPU shader time</text>
+    <text x="852" y="217" text-anchor="end" class="wa">+25 pts</text>
+
+    <rect x="36" y="250" width="3.5" height="79" rx="1.75" class="a"/>
+    <text x="58" y="306" class="vl a">SUSPICIOUS</text>
+    <text x="262" y="305"><tspan font-size="21" font-weight="700" class="t">25</tspan><tspan font-size="12" dx="7" class="m2">/ 100</tspan></text>
+    <rect x="372" y="296" width="32" height="5" rx="2.5" fill="url(#heat)"/>
+    <text x="540" y="304" font-size="12" class="t">35 / 38 clean &#183; 1 triggered &#183; 5 categories</text>
+  </g>
+</svg>
