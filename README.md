@@ -18,7 +18,7 @@ This repository holds no code. It explains what the site measures and how automa
   One row per stack, highest score first.
   Verdict cell: assets/meter/<score>.svg (there is one for every score from 0 to 100),
   then assets/verdict/<verdict>.svg: 45 and up automated, 18 and up suspicious, below that human.
-  Screenshot cell: the full page goes to screenshots/<slug>.png and a 600 px wide crop of its
+  Screenshot cell: the full page goes to screenshots/<slug>.png (or .jpg) and a 600 px wide crop of its
   top, header to triggered detections, to screenshots/thumbs/<slug>.png (a whole page at
   width 300 would be ~1,600 px tall). "pending" then becomes
   <a href="screenshots/<slug>.png"><img src="screenshots/thumbs/<slug>.png" width="300" alt="<Stack> on botstop.io"></a>
@@ -81,6 +81,14 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">6</td>
+      <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API with headless Chrome and rotating proxies</td>
+      <td align="right"><b>100</b></td>
+      <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>proxy<br>headless browser</sub></td>
+      <td><a href="screenshots/scrapingant.png"><img src="screenshots/thumbs/scrapingant.png" width="300" alt="ScrapingAnt on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">7</td>
       <td><a href="https://www.hyperbrowser.ai"><b>Hyperbrowser</b></a><br>Cloud-hosted Chrome sessions and web data APIs for AI agents</td>
       <td align="right"><b>98</b></td>
       <td><img src="assets/meter/98.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -88,7 +96,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="screenshots/hyperbrowser.png"><img src="screenshots/thumbs/hyperbrowser.png" width="300" alt="Hyperbrowser on botstop.io"></a></td>
     </tr>
     <tr>
-      <td align="right">7</td>
+      <td align="right">8</td>
       <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Agent that searches and navigates the web for the data you describe</td>
       <td align="right"><b>90</b></td>
       <td><img src="assets/meter/90.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -96,7 +104,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="screenshots/firecrawl-agent.png"><img src="screenshots/thumbs/firecrawl-agent.png" width="300" alt="Firecrawl agent on botstop.io"></a></td>
     </tr>
     <tr>
-      <td align="right">8</td>
+      <td align="right">9</td>
       <td><a href="https://anchorbrowser.io"><b>Anchor Browser</b></a><br>Cloud-hosted Chromium browsers for AI agents</td>
       <td align="right"><b>82</b></td>
       <td><img src="assets/meter/82.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -104,7 +112,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">9</td>
+      <td align="right">10</td>
       <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>One endpoint in front of many scraping APIs and proxy providers</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -112,31 +120,15 @@ This repository holds no code. It explains what the site measures and how automa
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">10</td>
-      <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API with headless Chrome and rotating proxies</td>
-      <td align="right"><b>70</b></td>
-      <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
       <td align="right">11</td>
-      <td><a href="https://www.kernel.sh"><b>Kernel</b></a><br>Isolated Chromium sessions in the cloud for AI agents</td>
-      <td align="right"><b>50</b></td>
-      <td><img src="assets/meter/50.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
+      <td><a href="https://simplescraper.io"><b>Simplescraper</b></a><br>Point-and-click web scraper with cloud runs and an extraction API</td>
+      <td align="right"><b>45</b></td>
+      <td><img src="assets/meter/45.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>default settings</sub></td>
+      <td><a href="screenshots/simplescraper.jpg"><img src="screenshots/thumbs/simplescraper.png" width="300" alt="Simplescraper on botstop.io"></a></td>
     </tr>
     <tr>
       <td align="right">12</td>
-      <td><a href="https://simplescraper.io"><b>Simplescraper</b></a><br>Point-and-click web scraper with cloud runs and an extraction API</td>
-      <td align="right"><b>40</b></td>
-      <td><img src="assets/meter/40.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">13</td>
       <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>api</code><br>Scraping API: a URL in, Markdown, HTML, a screenshot or JSON out</td>
       <td align="right"><b>40</b></td>
       <td><img src="assets/meter/40.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
@@ -144,20 +136,28 @@ This repository holds no code. It explains what the site measures and how automa
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">14</td>
+      <td align="right">13</td>
       <td><a href="https://www.context.dev"><b>Context.dev</b></a><br>Web scraping API for Markdown, HTML, screenshots or JSON; formerly Brand.dev</td>
       <td align="right"><b>33</b></td>
       <td><img src="assets/meter/33.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
+      <td>2026-11-13<br><sub>free plan<br>default settings</sub></td>
+      <td><a href="screenshots/context-dev.png"><img src="screenshots/thumbs/context-dev.png" width="300" alt="Context.dev on botstop.io"></a></td>
     </tr>
     <tr>
-      <td align="right">15</td>
+      <td align="right">14</td>
       <td><a href="https://lightpanda.io"><b>Lightpanda</b></a><br>Headless browser written from scratch in Zig, without graphical rendering</td>
       <td align="right"><b>27</b></td>
       <td><img src="assets/meter/27.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
       <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
+    </tr>
+    <tr>
+      <td align="right">15</td>
+      <td><a href="https://www.kernel.sh"><b>Kernel</b></a><br>Isolated Chromium sessions in the cloud for AI agents</td>
+      <td align="right"><b>25</b></td>
+      <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>2026-11-13<br><sub>free plan<br>headful, stealth<br>no GPU acceleration</sub></td>
+      <td><a href="screenshots/kernel.png"><img src="screenshots/thumbs/kernel.png" width="300" alt="Kernel on botstop.io"></a></td>
     </tr>
     <tr>
       <td align="right">16</td>
