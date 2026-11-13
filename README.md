@@ -59,51 +59,51 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">4</td>
+      <td><a href="https://scrapeninja.net"><b>ScrapeNinja</b></a><br>Web scraping API with Chrome fingerprint emulation and a real-browser engine</td>
+      <td align="right"><b>100</b></td>
+      <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/scrapeninja.png"><img src="screenshots/thumbs/scrapeninja.png" width="300" alt="ScrapeNinja on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">5</td>
+      <td><a href="https://www.zenrows.com"><b>Zenrows</b></a> <code>browser</code><br>Cloud-hosted browser for Puppeteer, Playwright or any other CDP client</td>
+      <td align="right"><b>100</b></td>
+      <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/zenrows-browser.png"><img src="screenshots/thumbs/zenrows-browser.png" width="300" alt="Zenrows browser on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">6</td>
+      <td><a href="https://www.hyperbrowser.ai"><b>Hyperbrowser</b></a><br>Cloud-hosted Chrome sessions and web data APIs for AI agents</td>
+      <td align="right"><b>98</b></td>
+      <td><img src="assets/meter/98.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/hyperbrowser.png"><img src="screenshots/thumbs/hyperbrowser.png" width="300" alt="Hyperbrowser on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">7</td>
       <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Agent that searches and navigates the web for the data you describe</td>
       <td align="right"><b>90</b></td>
       <td><img src="assets/meter/90.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><a href="screenshots/firecrawl-agent.png"><img src="screenshots/thumbs/firecrawl-agent.png" width="300" alt="Firecrawl agent on botstop.io"></a></td>
     </tr>
     <tr>
-      <td align="right">5</td>
+      <td align="right">8</td>
       <td><a href="https://anchorbrowser.io"><b>Anchor Browser</b></a><br>Cloud-hosted Chromium browsers for AI agents</td>
       <td align="right"><b>82</b></td>
       <td><img src="assets/meter/82.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">6</td>
+      <td align="right">9</td>
       <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>One endpoint in front of many scraping APIs and proxy providers</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">7</td>
+      <td align="right">10</td>
       <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API with headless Chrome and rotating proxies</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">8</td>
-      <td><a href="https://scrapeninja.net"><b>ScrapeNinja</b></a><br>Web scraping API with Chrome fingerprint emulation and a real-browser engine</td>
-      <td align="right"><b>55</b></td>
-      <td><img src="assets/meter/55.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">9</td>
-      <td><a href="https://www.zenrows.com"><b>Zenrows</b></a> <code>browser</code><br>Cloud-hosted browser for Puppeteer, Playwright or any other CDP client</td>
-      <td align="right"><b>55</b></td>
-      <td><img src="assets/meter/55.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">10</td>
-      <td><a href="https://www.hyperbrowser.ai"><b>Hyperbrowser</b></a><br>Cloud-hosted Chrome sessions and web data APIs for AI agents</td>
-      <td align="right"><b>55</b></td>
-      <td><img src="assets/meter/55.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -235,7 +235,7 @@ This repository holds no code. It explains what the site measures and how automa
 How to read it:
 
 - **Eleven of the 27 are called `automated`, eleven `suspicious`, and five pass as `human`**, two of them without a single point. The notches on each bar are the two thresholds, 18 and 45.
-- **A score belongs to one product in one configuration, on the day it was tested.** The same vendor lands in different places with different products: Firecrawl's agent scores 90 and its API 40, Zenrows' Browser 55 and its Fetch API 25. Running Camoufox headless costs it 15 points; with a window on a virtual display it scores 0.
+- **A score belongs to one product in one configuration, on the day it was tested.** The same vendor lands in different places with different products: Firecrawl's agent scores 90 and its API 40, Zenrows' Browser 100 and its Fetch API 25. Running Camoufox headless costs it 15 points; with a window on a virtual display it scores 0.
 - **The detector changes too.** Every check carries the detector version it was made with, shown in the header of the page.
 - **The IP address plays no part.** The score is made of what the browser and its machine give away. A datacenter address costs nothing here, and a residential proxy gains nothing.
 - **Much of what is counted is specific to Chrome and the DevTools protocol**, as the tables [below](#how-bots-still-get-caught) show. Camoufox is a Firefox build and is driven over a different protocol.
