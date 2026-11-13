@@ -18,8 +18,10 @@ This repository holds no code. It explains what the site measures and how automa
   One row per stack, highest score first.
   Verdict cell: assets/meter/<score>.svg (there is one for every score from 0 to 100),
   then assets/verdict/<verdict>.svg: 45 and up automated, 18 and up suspicious, below that human.
-  Screenshot cell: the image goes to screenshots/<slug>.png and replaces "pending" as
-  <a href="screenshots/<slug>.png"><img src="screenshots/<slug>.png" width="300" alt="<Stack> on botstop.io"></a>
+  Screenshot cell: the full page goes to screenshots/<slug>.png and a 600 px wide crop of its
+  top, header to triggered detections, to screenshots/thumbs/<slug>.png (a whole page at
+  width 300 would be ~1,600 px tall). "pending" then becomes
+  <a href="screenshots/<slug>.png"><img src="screenshots/thumbs/<slug>.png" width="300" alt="<Stack> on botstop.io"></a>
   The two <th width> keep those columns from shrinking: GitHub lets an image in a table cell shrink to nothing.
 -->
 
@@ -36,51 +38,51 @@ This repository holds no code. It explains what the site measures and how automa
   <tbody>
     <tr>
       <td align="right">1</td>
+      <td><a href="https://urlbox.com"><b>Urlbox</b></a><br>Website screenshot and rendering API</td>
+      <td align="right"><b>100</b></td>
+      <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/urlbox.png"><img src="screenshots/thumbs/urlbox.png" width="300" alt="Urlbox on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">2</td>
+      <td><a href="https://microlink.io"><b>Microlink</b></a><br>API that turns a URL into data, a screenshot or a PDF, with real browsers</td>
+      <td align="right"><b>100</b></td>
+      <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/microlink.png"><img src="screenshots/thumbs/microlink.png" width="300" alt="Microlink on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">3</td>
+      <td><a href="https://www.diffbot.com"><b>Diffbot</b></a><br>Extraction and crawling APIs, and a knowledge graph of the public web</td>
+      <td align="right"><b>100</b></td>
+      <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/diffbot.png"><img src="screenshots/thumbs/diffbot.png" width="300" alt="Diffbot on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">4</td>
+      <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Agent that searches and navigates the web for the data you describe</td>
+      <td align="right"><b>90</b></td>
+      <td><img src="assets/meter/90.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td><a href="screenshots/firecrawl-agent.png"><img src="screenshots/thumbs/firecrawl-agent.png" width="300" alt="Firecrawl agent on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">5</td>
       <td><a href="https://anchorbrowser.io"><b>Anchor Browser</b></a><br>Cloud-hosted Chromium browsers for AI agents</td>
       <td align="right"><b>82</b></td>
       <td><img src="assets/meter/82.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">2</td>
+      <td align="right">6</td>
       <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>One endpoint in front of many scraping APIs and proxy providers</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">3</td>
+      <td align="right">7</td>
       <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API with headless Chrome and rotating proxies</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">4</td>
-      <td><a href="https://urlbox.com"><b>Urlbox</b></a><br>Website screenshot and rendering API</td>
-      <td align="right"><b>68</b></td>
-      <td><img src="assets/meter/68.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">5</td>
-      <td><a href="https://microlink.io"><b>Microlink</b></a><br>API that turns a URL into data, a screenshot or a PDF, with real browsers</td>
-      <td align="right"><b>63</b></td>
-      <td><img src="assets/meter/63.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">6</td>
-      <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Agent that searches and navigates the web for the data you describe</td>
-      <td align="right"><b>60</b></td>
-      <td><img src="assets/meter/60.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">7</td>
-      <td><a href="https://www.diffbot.com"><b>Diffbot</b></a><br>Extraction and crawling APIs, and a knowledge graph of the public web</td>
-      <td align="right"><b>60</b></td>
-      <td><img src="assets/meter/60.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -233,7 +235,7 @@ This repository holds no code. It explains what the site measures and how automa
 How to read it:
 
 - **Eleven of the 27 are called `automated`, eleven `suspicious`, and five pass as `human`**, two of them without a single point. The notches on each bar are the two thresholds, 18 and 45.
-- **A score belongs to one product in one configuration, on the day it was tested.** The same vendor lands in different places with different products: Firecrawl's agent scores 60 and its API 40, Zenrows' Browser 55 and its Fetch API 25. Running Camoufox headless costs it 15 points; with a window on a virtual display it scores 0.
+- **A score belongs to one product in one configuration, on the day it was tested.** The same vendor lands in different places with different products: Firecrawl's agent scores 90 and its API 40, Zenrows' Browser 55 and its Fetch API 25. Running Camoufox headless costs it 15 points; with a window on a virtual display it scores 0.
 - **The detector changes too.** Every check carries the detector version it was made with, shown in the header of the page.
 - **The IP address plays no part.** The score is made of what the browser and its machine give away. A datacenter address costs nothing here, and a residential proxy gains nothing.
 - **Much of what is counted is specific to Chrome and the DevTools protocol**, as the tables [below](#how-bots-still-get-caught) show. Camoufox is a Firefox build and is driven over a different protocol.
