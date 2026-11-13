@@ -105,6 +105,14 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">9</td>
+      <td><a href="https://www.browserless.io"><b>Browserless</b></a><br>Managed headless browsers for Puppeteer, Playwright and Selenium</td>
+      <td align="right"><b>85</b></td>
+      <td><img src="assets/meter/85.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>default settings</sub></td>
+      <td><a href="screenshots/browserless.png"><img src="screenshots/thumbs/browserless.png" width="300" alt="Browserless on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">10</td>
       <td><a href="https://anchorbrowser.io"><b>Anchor Browser</b></a><br>Cloud-hosted Chromium browsers for AI agents</td>
       <td align="right"><b>82</b></td>
       <td><img src="assets/meter/82.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -112,7 +120,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">10</td>
+      <td align="right">11</td>
       <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>One endpoint in front of many scraping APIs and proxy providers</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -120,7 +128,15 @@ This repository holds no code. It explains what the site measures and how automa
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">11</td>
+      <td align="right">12</td>
+      <td><a href="https://browser-use.com"><b>Browser Use</b></a><br>The open-source browser agent and its cloud of stealth browsers</td>
+      <td align="right"><b>55</b></td>
+      <td><img src="assets/meter/55.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>default settings</sub></td>
+      <td><a href="screenshots/browser-use.png"><img src="screenshots/thumbs/browser-use.png" width="300" alt="Browser Use on botstop.io"></a></td>
+    </tr>
+    <tr>
+      <td align="right">13</td>
       <td><a href="https://simplescraper.io"><b>Simplescraper</b></a><br>Point-and-click web scraper with cloud runs and an extraction API</td>
       <td align="right"><b>45</b></td>
       <td><img src="assets/meter/45.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
@@ -128,7 +144,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="screenshots/simplescraper.jpg"><img src="screenshots/thumbs/simplescraper.png" width="300" alt="Simplescraper on botstop.io"></a></td>
     </tr>
     <tr>
-      <td align="right">12</td>
+      <td align="right">14</td>
       <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>api</code><br>Scraping API: a URL in, Markdown, HTML, a screenshot or JSON out</td>
       <td align="right"><b>40</b></td>
       <td><img src="assets/meter/40.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
@@ -136,7 +152,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><sub>pending</sub></td>
     </tr>
     <tr>
-      <td align="right">13</td>
+      <td align="right">15</td>
       <td><a href="https://www.context.dev"><b>Context.dev</b></a><br>Web scraping API for Markdown, HTML, screenshots or JSON; formerly Brand.dev</td>
       <td align="right"><b>33</b></td>
       <td><img src="assets/meter/33.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
@@ -144,7 +160,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="screenshots/context-dev.png"><img src="screenshots/thumbs/context-dev.png" width="300" alt="Context.dev on botstop.io"></a></td>
     </tr>
     <tr>
-      <td align="right">14</td>
+      <td align="right">16</td>
       <td><a href="https://lightpanda.io"><b>Lightpanda</b></a><br>Headless browser written from scratch in Zig, without graphical rendering</td>
       <td align="right"><b>27</b></td>
       <td><img src="assets/meter/27.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
@@ -152,28 +168,12 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="screenshots/lightpanda.png"><img src="screenshots/thumbs/lightpanda.png" width="300" alt="Lightpanda on botstop.io"></a><br><sub>Lightpanda's own render: it draws no pixels</sub></td>
     </tr>
     <tr>
-      <td align="right">15</td>
+      <td align="right">17</td>
       <td><a href="https://www.kernel.sh"><b>Kernel</b></a><br>Isolated Chromium sessions in the cloud for AI agents</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
       <td>2026-11-13<br><sub>free plan<br>headful, stealth<br>no GPU acceleration</sub></td>
       <td><a href="screenshots/kernel.png"><img src="screenshots/thumbs/kernel.png" width="300" alt="Kernel on botstop.io"></a></td>
-    </tr>
-    <tr>
-      <td align="right">16</td>
-      <td><a href="https://www.browserless.io"><b>Browserless</b></a><br>Managed headless browsers for Puppeteer, Playwright and Selenium</td>
-      <td align="right"><b>25</b></td>
-      <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
-    </tr>
-    <tr>
-      <td align="right">17</td>
-      <td><a href="https://browser-use.com"><b>Browser Use</b></a><br>The open-source browser agent and its cloud of stealth browsers</td>
-      <td align="right"><b>25</b></td>
-      <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
     </tr>
     <tr>
       <td align="right">18</td>
@@ -264,7 +264,7 @@ This repository holds no code. It explains what the site measures and how automa
 
 How to read it:
 
-- **Eleven of the 27 are called `automated`, eleven `suspicious`, and five pass as `human`**, two of them without a single point. The notches on each bar are the two thresholds, 18 and 45.
+- **Thirteen of the 27 are called `automated`, nine `suspicious`, and five pass as `human`**, two of them without a single point. The notches on each bar are the two thresholds, 18 and 45.
 - **A score belongs to one product in one configuration, on the day it was tested.** The same vendor lands in different places with different products: Firecrawl's agent scores 90 and its API 40, Zenrows' Browser 100 and its Fetch API 25. Running Camoufox headless costs it 15 points; with a window on a virtual display it scores 0.
 - **The detector changes too.** Every check carries the detector version it was made with, shown in the header of the page.
 - **The IP address plays no part.** The score is made of what the browser and its machine give away. A datacenter address costs nothing here, and a residential proxy gains nothing.
