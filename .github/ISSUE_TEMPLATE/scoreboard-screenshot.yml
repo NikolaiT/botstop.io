@@ -1,0 +1,91 @@
+name: Scoreboard screenshot
+description: Send a scraping, screenshot or AI-agent browser stack to botstop.io and submit what it scored.
+title: "Scoreboard: "
+labels: ["scoreboard"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing a stack. A row on the scoreboard is one product in one setup on one day, so tell us exactly how it was run. A stack that is already on the board is welcome again, with other settings or on a newer detector version.
+
+        1. Send the stack to https://botstop.io and let the check finish: the result card says **all tests done**. The page adds the element `#allTestsDone` at the same moment, so a screenshot API can wait for that selector.
+        2. Take the screenshot, full page if the stack allows it.
+        3. If you can click on the result card, copy the link behind **permalink ↗**. It opens the stored check.
+  - type: input
+    id: stack
+    attributes:
+      label: Stack
+      description: Vendor and product, as the vendor names them.
+      placeholder: Zenrows Browser
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Vendor website
+      placeholder: https://www.zenrows.com
+    validations:
+      required: true
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Plan
+      options:
+        - Free plan or trial
+        - Paid plan
+        - Self-hosted or open source
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: What the visit was made with. Real browser or plain HTTP, headless or headful, stealth options, proxy type, and anything else you changed from the defaults. "Default settings" is a fine answer.
+      placeholder: |
+        real browser, headful
+        stealth on, residential proxy
+    validations:
+      required: true
+  - type: input
+    id: score
+    attributes:
+      label: Score
+      description: The suspicion score on the result card, from 0 to 100.
+      placeholder: "55"
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: Date and time of the visit
+      description: With the time zone. Without a permalink, this is how the check is found among the stored ones.
+      placeholder: 2026-11-13 14:05 UTC
+    validations:
+      required: true
+  - type: input
+    id: permalink
+    attributes:
+      label: Permalink
+      description: The link behind "permalink ↗" on the result card, if the stack let you click it.
+      placeholder: https://botstop.io/session/...
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag the image into this box. The result card in it should say "all tests done".
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How you ran it
+      description: Optional. The API call, script or dashboard steps. Leave out your API key.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: The screenshot is unedited.
+          required: true
+        - label: There is no API key or token anywhere above.
+          required: true

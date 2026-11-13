@@ -8,7 +8,7 @@
 
 This repository holds no code. It explains what the site measures and how automated browsers still give themselves away, and it keeps the score of the scraping and AI-agent browser stacks that were sent there.
 
-**[Try it on botstop.io](https://botstop.io)** &nbsp;·&nbsp; [Scoreboard](#scoreboard) &nbsp;·&nbsp; [What it does](#what-botstopio-does) &nbsp;·&nbsp; [How bots still get caught](#how-bots-still-get-caught) &nbsp;·&nbsp; [Further reading](#further-reading)
+**[Try it on botstop.io](https://botstop.io)** &nbsp;·&nbsp; [Scoreboard](#scoreboard) &nbsp;·&nbsp; [Submit a screenshot](#submit-a-screenshot) &nbsp;·&nbsp; [What it does](#what-botstopio-does) &nbsp;·&nbsp; [How bots still get caught](#how-bots-still-get-caught) &nbsp;·&nbsp; [Further reading](#further-reading)
 
 ## Scoreboard
 
@@ -270,6 +270,14 @@ How to read it:
 - **The IP address plays no part.** The score is made of what the browser and its machine give away. A datacenter address costs nothing here, and a residential proxy gains nothing.
 - **Much of what is counted is specific to Chrome and the DevTools protocol**, as the tables [below](#how-bots-still-get-caught) show. Camoufox is a Firefox build and is driven over a different protocol.
 
+### Submit a screenshot
+
+Tested a stack yourself? [Open a scoreboard issue](https://github.com/NikolaiT/botstop.io/issues/new?template=scoreboard-screenshot.yml) with its screenshot, the score and the setup it ran with. Stacks already on the board are welcome again, with other settings or on a newer detector version.
+
+1. Send the stack to <https://botstop.io> and let the check finish: the result card says "all tests done", and the page adds the element `#allTestsDone` at that moment, so a screenshot API can wait for it.
+2. Take the screenshot, full page if the stack allows it.
+3. Note the plan and the setup: real browser or plain HTTP, headless or headful, stealth and proxy settings. The form asks for each.
+
 ## What botstop.io does
 
 The check runs by itself when the page opens, in two phases: an instant verdict from the signals that are there immediately, refined once by the probes that need time.
@@ -398,11 +406,11 @@ A detector is only as good as its false positives are rare. Most of the signals 
 
 ## Try it
 
-Open <https://botstop.io> in the browser you want judged, or send your automation there and read the result card, or take a screenshot as above. Give it three seconds: the first verdict appears at once and is refined when the slower probes have settled, at which point the card says "full scan complete". A client that does not run JavaScript gets no verdict, because the check is the script.
+Open <https://botstop.io> in the browser you want judged, or send your automation there and read the result card, or take a screenshot as above. Give it three seconds: the first verdict appears at once and is refined when the slower probes have settled, at which point the card says "full scan complete · all tests done" and the page adds the element `#allTestsDone`, the selector to wait for before a screenshot. A client that does not run JavaScript gets no verdict, because the check is the script.
 
 [`botstop.io/?proxy=1`](https://botstop.io/?proxy=1) runs the proxy and VPN tests after the bot check.
 
-If you get a stack past it, or it calls your real browser a bot, open an issue here and include the permalink of the check.
+If you get a stack past it, or it calls your real browser a bot, open an issue here and include the permalink of the check. To put a stack on the scoreboard, [submit a screenshot](#submit-a-screenshot).
 
 ## Further reading
 
