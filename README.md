@@ -43,14 +43,14 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">2</td>
-      <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>Aggregator that sends each request to the scraping API or proxy provider that works best on the site</td>
+      <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>One endpoint in front of many scraping APIs and proxy providers</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
       <td align="right">3</td>
-      <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API: headless Chrome and rotating proxies behind one endpoint</td>
+      <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API with headless Chrome and rotating proxies</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
@@ -64,21 +64,21 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">5</td>
-      <td><a href="https://microlink.io"><b>Microlink</b></a><br>API that turns a URL into data, screenshots or PDFs, with real browsers</td>
+      <td><a href="https://microlink.io"><b>Microlink</b></a><br>API that turns a URL into data, a screenshot or a PDF, with real browsers</td>
       <td align="right"><b>63</b></td>
       <td><img src="assets/meter/63.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
       <td align="right">6</td>
-      <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Firecrawl's agent: describe the data, and it searches and navigates the web for it</td>
+      <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Agent that searches and navigates the web for the data you describe</td>
       <td align="right"><b>60</b></td>
       <td><img src="assets/meter/60.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
       <td align="right">7</td>
-      <td><a href="https://www.diffbot.com"><b>Diffbot</b></a><br>Extraction and crawling APIs, and a knowledge graph built from the public web</td>
+      <td><a href="https://www.diffbot.com"><b>Diffbot</b></a><br>Extraction and crawling APIs, and a knowledge graph of the public web</td>
       <td align="right"><b>60</b></td>
       <td><img src="assets/meter/60.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
@@ -106,7 +106,7 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">11</td>
-      <td><a href="https://www.kernel.sh"><b>Kernel</b></a><br>Browser infrastructure for AI agents: isolated Chromium sessions in the cloud</td>
+      <td><a href="https://www.kernel.sh"><b>Kernel</b></a><br>Isolated Chromium sessions in the cloud for AI agents</td>
       <td align="right"><b>50</b></td>
       <td><img src="assets/meter/50.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
       <td><sub>pending</sub></td>
@@ -120,14 +120,14 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">13</td>
-      <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>api</code><br>Firecrawl's scraping API: a URL in, Markdown, HTML, a screenshot or JSON out</td>
+      <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>api</code><br>Scraping API: a URL in, Markdown, HTML, a screenshot or JSON out</td>
       <td align="right"><b>40</b></td>
       <td><img src="assets/meter/40.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
       <td align="right">14</td>
-      <td><a href="https://www.context.dev"><b>Context.dev</b></a><br>Web scraping API that returns Markdown, HTML, screenshots or JSON; formerly Brand.dev</td>
+      <td><a href="https://www.context.dev"><b>Context.dev</b></a><br>Web scraping API for Markdown, HTML, screenshots or JSON; formerly Brand.dev</td>
       <td align="right"><b>33</b></td>
       <td><img src="assets/meter/33.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
       <td><sub>pending</sub></td>
@@ -155,7 +155,7 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">18</td>
-      <td><a href="https://scrapfly.io"><b>Scrapfly</b></a> <code>api, chrome</code><br>Web scraping API with managed proxies and browser rendering, here presenting itself as Chrome</td>
+      <td><a href="https://scrapfly.io"><b>Scrapfly</b></a> <code>api, chrome</code><br>Web scraping API with browser rendering, here presenting itself as Chrome</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
       <td><sub>pending</sub></td>
@@ -169,7 +169,7 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">20</td>
-      <td><a href="https://www.zenrows.com"><b>Zenrows</b></a> <code>fetch</code><br>Zenrows' scraping API: JavaScript rendering, proxy rotation and anti-bot handling in one request</td>
+      <td><a href="https://www.zenrows.com"><b>Zenrows</b></a> <code>fetch</code><br>Scraping API with JavaScript rendering, proxy rotation and anti-bot handling</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
       <td><sub>pending</sub></td>
@@ -204,7 +204,7 @@ This repository holds no code. It explains what the site measures and how automa
     </tr>
     <tr>
       <td align="right">25</td>
-      <td><a href="https://camoufox.com"><b>Camoufox</b></a> <code>headless</code><br>Open-source anti-detect browser: a Firefox build that changes its fingerprint in C++</td>
+      <td><a href="https://camoufox.com"><b>Camoufox</b></a> <code>headless</code><br>Open-source anti-detect Firefox that changes its fingerprint in C++</td>
       <td align="right"><b>15</b></td>
       <td><img src="assets/meter/15.svg" width="110" alt=""><br><img src="assets/verdict/human.svg" height="20" alt="human"></td>
       <td><sub>pending</sub></td>
