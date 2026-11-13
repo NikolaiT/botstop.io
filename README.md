@@ -148,8 +148,8 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://lightpanda.io"><b>Lightpanda</b></a><br>Headless browser written from scratch in Zig, without graphical rendering</td>
       <td align="right"><b>27</b></td>
       <td><img src="assets/meter/27.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
-      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
-      <td><sub>pending</sub></td>
+      <td>2026-11-13<br><sub>free plan<br>default settings</sub></td>
+      <td><a href="screenshots/lightpanda.png"><img src="screenshots/thumbs/lightpanda.png" width="300" alt="Lightpanda on botstop.io"></a><br><sub>Lightpanda's own render: it draws no pixels</sub></td>
     </tr>
     <tr>
       <td align="right">15</td>
