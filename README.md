@@ -22,6 +22,7 @@ This repository holds no code. It explains what the site measures and how automa
   top, header to triggered detections, to screenshots/thumbs/<slug>.png (a whole page at
   width 300 would be ~1,600 px tall). "pending" then becomes
   <a href="screenshots/<slug>.png"><img src="screenshots/thumbs/<slug>.png" width="300" alt="<Stack> on botstop.io"></a>
+  Tested cell: the day of the visit, then the plan and settings it was made with.
   The two <th width> keep those columns from shrinking: GitHub lets an image in a table cell shrink to nothing.
 -->
 
@@ -32,6 +33,7 @@ This repository holds no code. It explains what the site measures and how automa
       <th align="left">Stack</th>
       <th align="right">Score</th>
       <th align="left" width="110">Verdict</th>
+      <th align="left">Tested</th>
       <th align="left" width="300">Screenshot</th>
     </tr>
   </thead>
@@ -41,6 +43,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://urlbox.com"><b>Urlbox</b></a><br>Website screenshot and rendering API</td>
       <td align="right"><b>100</b></td>
       <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/urlbox.png"><img src="screenshots/thumbs/urlbox.png" width="300" alt="Urlbox on botstop.io"></a></td>
     </tr>
     <tr>
@@ -48,6 +51,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://microlink.io"><b>Microlink</b></a><br>API that turns a URL into data, a screenshot or a PDF, with real browsers</td>
       <td align="right"><b>100</b></td>
       <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/microlink.png"><img src="screenshots/thumbs/microlink.png" width="300" alt="Microlink on botstop.io"></a></td>
     </tr>
     <tr>
@@ -55,6 +59,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.diffbot.com"><b>Diffbot</b></a><br>Extraction and crawling APIs, and a knowledge graph of the public web</td>
       <td align="right"><b>100</b></td>
       <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/diffbot.png"><img src="screenshots/thumbs/diffbot.png" width="300" alt="Diffbot on botstop.io"></a></td>
     </tr>
     <tr>
@@ -62,6 +67,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://scrapeninja.net"><b>ScrapeNinja</b></a><br>Web scraping API with Chrome fingerprint emulation and a real-browser engine</td>
       <td align="right"><b>100</b></td>
       <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/scrapeninja.png"><img src="screenshots/thumbs/scrapeninja.png" width="300" alt="ScrapeNinja on botstop.io"></a></td>
     </tr>
     <tr>
@@ -69,6 +75,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.zenrows.com"><b>Zenrows</b></a> <code>browser</code><br>Cloud-hosted browser for Puppeteer, Playwright or any other CDP client</td>
       <td align="right"><b>100</b></td>
       <td><img src="assets/meter/100.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/zenrows-browser.png"><img src="screenshots/thumbs/zenrows-browser.png" width="300" alt="Zenrows browser on botstop.io"></a></td>
     </tr>
     <tr>
@@ -76,6 +83,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.hyperbrowser.ai"><b>Hyperbrowser</b></a><br>Cloud-hosted Chrome sessions and web data APIs for AI agents</td>
       <td align="right"><b>98</b></td>
       <td><img src="assets/meter/98.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/hyperbrowser.png"><img src="screenshots/thumbs/hyperbrowser.png" width="300" alt="Hyperbrowser on botstop.io"></a></td>
     </tr>
     <tr>
@@ -83,6 +91,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>agent</code><br>Agent that searches and navigates the web for the data you describe</td>
       <td align="right"><b>90</b></td>
       <td><img src="assets/meter/90.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><a href="screenshots/firecrawl-agent.png"><img src="screenshots/thumbs/firecrawl-agent.png" width="300" alt="Firecrawl agent on botstop.io"></a></td>
     </tr>
     <tr>
@@ -90,6 +99,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://anchorbrowser.io"><b>Anchor Browser</b></a><br>Cloud-hosted Chromium browsers for AI agents</td>
       <td align="right"><b>82</b></td>
       <td><img src="assets/meter/82.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -97,6 +107,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://scrapeops.io"><b>ScrapeOps</b></a><br>One endpoint in front of many scraping APIs and proxy providers</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -104,6 +115,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://scrapingant.com"><b>ScrapingAnt</b></a><br>Web scraping API with headless Chrome and rotating proxies</td>
       <td align="right"><b>70</b></td>
       <td><img src="assets/meter/70.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -111,6 +123,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.kernel.sh"><b>Kernel</b></a><br>Isolated Chromium sessions in the cloud for AI agents</td>
       <td align="right"><b>50</b></td>
       <td><img src="assets/meter/50.svg" width="110" alt=""><br><img src="assets/verdict/automated.svg" height="20" alt="automated"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -118,6 +131,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://simplescraper.io"><b>Simplescraper</b></a><br>Point-and-click web scraper with cloud runs and an extraction API</td>
       <td align="right"><b>40</b></td>
       <td><img src="assets/meter/40.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -125,6 +139,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.firecrawl.dev"><b>Firecrawl</b></a> <code>api</code><br>Scraping API: a URL in, Markdown, HTML, a screenshot or JSON out</td>
       <td align="right"><b>40</b></td>
       <td><img src="assets/meter/40.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -132,6 +147,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.context.dev"><b>Context.dev</b></a><br>Web scraping API for Markdown, HTML, screenshots or JSON; formerly Brand.dev</td>
       <td align="right"><b>33</b></td>
       <td><img src="assets/meter/33.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -139,6 +155,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://lightpanda.io"><b>Lightpanda</b></a><br>Headless browser written from scratch in Zig, without graphical rendering</td>
       <td align="right"><b>27</b></td>
       <td><img src="assets/meter/27.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -146,6 +163,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.browserless.io"><b>Browserless</b></a><br>Managed headless browsers for Puppeteer, Playwright and Selenium</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -153,6 +171,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://browser-use.com"><b>Browser Use</b></a><br>The open-source browser agent and its cloud of stealth browsers</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -160,6 +179,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://scrapfly.io"><b>Scrapfly</b></a> <code>api, chrome</code><br>Web scraping API with browser rendering, here presenting itself as Chrome</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -167,6 +187,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://scrapfly.io"><b>Scrapfly</b></a> <code>api, opera</code><br>The same API with the browser presenting itself as Opera</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -174,6 +195,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.zenrows.com"><b>Zenrows</b></a> <code>fetch</code><br>Scraping API with JavaScript rendering, proxy rotation and anti-bot handling</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -181,6 +203,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.zyte.com/zyte-api/"><b>Zyte API</b></a><br>Web scraping API with automatic ban handling and browser rendering</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -188,6 +211,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://decodo.com"><b>Decodo</b></a><br>Proxy networks and a web data API; formerly Smartproxy</td>
       <td align="right"><b>25</b></td>
       <td><img src="assets/meter/25.svg" width="110" alt=""><br><img src="assets/verdict/suspicious.svg" height="20" alt="suspicious"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -195,6 +219,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://crawlbase.com"><b>Crawlbase</b></a><br>Crawling API with proxies, browser rendering and anti-bot handling built in</td>
       <td align="right"><b>15</b></td>
       <td><img src="assets/meter/15.svg" width="110" alt=""><br><img src="assets/verdict/human.svg" height="20" alt="human"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -202,6 +227,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://www.scrapingbee.com"><b>ScrapingBee</b></a><br>Web scraping API with headless Chrome and proxy rotation</td>
       <td align="right"><b>15</b></td>
       <td><img src="assets/meter/15.svg" width="110" alt=""><br><img src="assets/verdict/human.svg" height="20" alt="human"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -209,6 +235,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://camoufox.com"><b>Camoufox</b></a> <code>headless</code><br>Open-source anti-detect Firefox that changes its fingerprint in C++</td>
       <td align="right"><b>15</b></td>
       <td><img src="assets/meter/15.svg" width="110" alt=""><br><img src="assets/verdict/human.svg" height="20" alt="human"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -216,6 +243,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://camoufox.com"><b>Camoufox</b></a> <code>headful, xvfb</code><br>The same browser with a window, on a virtual display (Xvfb)</td>
       <td align="right"><b>0</b></td>
       <td><img src="assets/meter/0.svg" width="110" alt=""><br><img src="assets/verdict/human.svg" height="20" alt="human"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
     <tr>
@@ -223,6 +251,7 @@ This repository holds no code. It explains what the site measures and how automa
       <td><a href="https://scrape.do"><b>Scrape.do</b></a><br>Web scraping API with rotating proxies and JavaScript rendering</td>
       <td align="right"><b>0</b></td>
       <td><img src="assets/meter/0.svg" width="110" alt=""><br><img src="assets/verdict/human.svg" height="20" alt="human"></td>
+      <td>before<br>2026-11-13<br><sub>free plan<br>real browser<br>max stealth</sub></td>
       <td><sub>pending</sub></td>
     </tr>
   </tbody>
