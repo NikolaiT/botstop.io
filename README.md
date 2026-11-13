@@ -23,7 +23,8 @@ This repository holds no code. It explains what the site measures and how automa
   width 300 would be ~1,600 px tall). "pending" then becomes
   <a href="screenshots/<slug>.png"><img src="screenshots/thumbs/<slug>.png" width="300" alt="<Stack> on botstop.io"></a>
   Tested cell: the day of the visit, then the plan and settings it was made with.
-  The two <th width> keep those columns from shrinking: GitHub lets an image in a table cell shrink to nothing.
+  The <th width>s keep the image columns from shrinking (GitHub lets an image in a table cell shrink
+  to nothing) and the Tested date from breaking at its hyphens; GitHub's widths include the 26 px padding.
 -->
 
 <table>
@@ -33,7 +34,7 @@ This repository holds no code. It explains what the site measures and how automa
       <th align="left">Stack</th>
       <th align="right">Score</th>
       <th align="left" width="110">Verdict</th>
-      <th align="left">Tested</th>
+      <th align="left" width="130">Tested</th>
       <th align="left" width="300">Screenshot</th>
     </tr>
   </thead>
